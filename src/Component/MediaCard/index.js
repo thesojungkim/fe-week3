@@ -7,9 +7,11 @@ const CardWrapper = styled.div`
   width: 350px;
   margin-right: ${(props) => (props.margin_right ? props.margin_right : "0px")};
   margin-left: ${(props) => (props.margin_left ? props.margin_left : "0px")};
-  border: 1px black solid;
+
   margin-top: 48px;
-  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
