@@ -1,29 +1,44 @@
 import React from "react";
 import styled from "styled-components";
 import TextBox from "../TextBox";
+import { FiCamera } from "react-icons/fi";
 
 const StyledHeader = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: ${(props) => (props.width ? props.width : "100")};
   background-color: #343a40;
   height: ${(props) => (props.height ? props.height : "100")};
+  margin: 0;
+  padding: 0;
+`;
+
+const Wrapper = styled.div`
+  display: flex;
+  align-items: flex-end;
+  width: 75%;
+`;
+
+const Icon = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
 `;
 
 const Header = (props) => {
   return (
-    <div>
-      <StyledHeader width={props.width} height={props.height}>
-        <TextBox
-          text_align={props.text_align}
-          fontSize={props.fontSize}
-          margin_top={props.margin_top}
-          margin_left={props.margin_left}
-          color="white"
-        >
-          {props.children}
+    <StyledHeader width={props.width} height={props.height}>
+      <Icon>
+        <FiCamera color="white" size="24" />
+      </Icon>
+      <Wrapper>
+        <TextBox fontSize={props.fontSize} color="white">
+          Album
         </TextBox>
-      </StyledHeader>
-    </div>
+      </Wrapper>
+    </StyledHeader>
   );
 };
 export default Header;

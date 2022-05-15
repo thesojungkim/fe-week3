@@ -4,7 +4,6 @@ import styled from "styled-components";
 const StyledText = styled.div`
   display: flex;
   justify-content: center;
-  width: 100%;
   line-height: 1.5;
   font-size: ${(props) => (props.font_size ? props.font_size : "16px")};
   color: ${(props) => (props.color ? props.color : "black")};

@@ -1,7 +1,7 @@
 import Header from "./Component/Header";
 import TextBox from "./Component/TextBox";
 import GlobalStyle from "./Component/Global";
-import { FiCamera } from "react-icons/fi";
+
 import Button from "./Component/Button";
 import MediaCard from "./Component/MediaCard";
 import CenterWrapper from "./Component/CenterWrapper";
@@ -11,16 +11,7 @@ function App() {
   return (
     <>
       <GlobalStyle></GlobalStyle>
-      <Header
-        color="white"
-        width="100%"
-        height="55px"
-        margin_top="15px"
-        margin_left="120px"
-        fontSize="20px"
-      >
-        <FiCamera /> Album
-      </Header>
+      <Header color="white" width="100%" height="55px" fontSize="20px"></Header>
       <Color>
         <CenterWrapper
           flex_direction="column"
@@ -69,7 +60,7 @@ function App() {
       <Color background_color="#F8F9FA">
         <Image>
           <MediaCard
-            img=""
+            img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTSgkIIEoCwenJ6-QMbs7-S-LBa_kvodKjMg&usqp=CAU"
             width="100%"
             height="225px"
             border="1px solid #6c757d"
@@ -86,7 +77,7 @@ function App() {
             text_align2="right"
           ></MediaCard>
           <MediaCard
-            img=""
+            img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMqnYgWCK3UljkehJVmma1clyX07tGhAGWgdE-d7iaGF_yp-CQX-zzQBTYhZszc3Msq8&usqp=CAU"
             width="100%"
             height="225px"
             border="1px solid #6c757d"
@@ -101,7 +92,7 @@ function App() {
             text_align="left"
           ></MediaCard>
           <MediaCard
-            img=""
+            img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMqnYgWCK3UljkehJVmma1clyX07tGhAGWgdE-d7iaGF_yp-CQX-zzQBTYhZszc3Msq8&usqp=CAU"
             width="100%"
             height="225px"
             border="1px solid #6c757d"
@@ -116,7 +107,7 @@ function App() {
             text_align="left"
           ></MediaCard>
           <MediaCard
-            img=""
+            img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMqnYgWCK3UljkehJVmma1clyX07tGhAGWgdE-d7iaGF_yp-CQX-zzQBTYhZszc3Msq8&usqp=CAU"
             width="100%"
             height="225px"
             border="1px solid #6c757d"
@@ -132,7 +123,7 @@ function App() {
             text_align="left"
           ></MediaCard>
           <MediaCard
-            img=""
+            img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMqnYgWCK3UljkehJVmma1clyX07tGhAGWgdE-d7iaGF_yp-CQX-zzQBTYhZszc3Msq8&usqp=CAU"
             width="100%"
             height="225px"
             border="1px solid #6c757d"
@@ -147,7 +138,7 @@ function App() {
             text_align="left"
           ></MediaCard>
           <MediaCard
-            img=""
+            img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMqnYgWCK3UljkehJVmma1clyX07tGhAGWgdE-d7iaGF_yp-CQX-zzQBTYhZszc3Msq8&usqp=CAU"
             width="100%"
             height="225px"
             border="1px solid #6c757d"
@@ -162,7 +153,7 @@ function App() {
             text_align="left"
           ></MediaCard>
           <MediaCard
-            img=""
+            img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMqnYgWCK3UljkehJVmma1clyX07tGhAGWgdE-d7iaGF_yp-CQX-zzQBTYhZszc3Msq8&usqp=CAU"
             width="100%"
             height="225px"
             border="1px solid #6c757d"
@@ -178,7 +169,7 @@ function App() {
             text_align="left"
           ></MediaCard>
           <MediaCard
-            img=""
+            img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMqnYgWCK3UljkehJVmma1clyX07tGhAGWgdE-d7iaGF_yp-CQX-zzQBTYhZszc3Msq8&usqp=CAU"
             width="100%"
             height="225px"
             border="1px solid #6c757d"
@@ -193,7 +184,7 @@ function App() {
             text_align="left"
           ></MediaCard>
           <MediaCard
-            img=""
+            img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMqnYgWCK3UljkehJVmma1clyX07tGhAGWgdE-d7iaGF_yp-CQX-zzQBTYhZszc3Msq8&usqp=CAU"
             width="100%"
             height="225px"
             border="1px solid #6c757d"

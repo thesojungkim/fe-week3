@@ -23,7 +23,10 @@ const StyledImg = styled.img`
 const Text = styled.div`
   padding: 20px;
 `;
-
+const Min = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`;
 const MediaCard = (props) => {
   console.log(props);
   return (
@@ -43,16 +46,17 @@ const MediaCard = (props) => {
           This is a wider card with supporting text below as a natural lead-in
           to additional content. This content is a little bit longer.
         </TextBox>
-
-        <TextBox
-          color={props.tcolor2}
-          fontWeight={props.fontWeight2}
-          fontSize={props.fontSize2}
-          margin_right={props.margin_right2}
-          text_align={props.text_align2}
-        >
-          {props.content}9 mins
-        </TextBox>
+        <Min>
+          <TextBox
+            color={props.tcolor2}
+            fontWeight={props.fontWeight2}
+            fontSize={props.fontSize2}
+            margin_right={props.margin_right2}
+            text_align={props.text_align2}
+          >
+            {props.content}9 mins
+          </TextBox>
+        </Min>
       </Text>
     </CardWrapper>
   );
